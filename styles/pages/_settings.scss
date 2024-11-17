@@ -1,0 +1,16 @@
+.mantine-Tabs-tab {
+  color: var(--mantine-color-dimmed);
+  margin-right: 1.2rem;
+
+  &:hover {
+    background-color: transparent;
+  }
+
+  &[data-active] {
+    color: white;
+  }
+}
+
+.mantine-RichTextEditor-linkEditor .mantine-Button-label {
+  color: white;
+}

@@ -1,0 +1,22 @@
+@import 'pages/dashboard';
+@import 'pages/settings';
+@import 'normalize';
+@import 'theme';
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: light-dark(#000, #fff);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.threeDimensionalShadow {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2), inset 0 0 0 1px rgba(0, 0, 0, .1), inset 0 1px rgba(255, 255, 255, .2);
+}
+

@@ -1,0 +1,7 @@
+.dashboard {
+  &__widgets {
+    @media all and (max-width: 1110px) {
+      flex-wrap: wrap;
+    }
+  }
+}

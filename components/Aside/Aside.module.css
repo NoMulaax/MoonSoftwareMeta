@@ -1,0 +1,14 @@
+.due_commissions {
+    position: relative;
+
+    &:not(:last-of-type)::before {
+        position: absolute;
+        content: "";
+        height: 0.6rem;
+        width: 1px;
+        background-color: #696969;
+        top: 2.5rem;
+        left: 1.1rem;
+
+    }
+}

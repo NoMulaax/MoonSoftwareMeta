@@ -1,0 +1,31 @@
+.container {
+    @media all and (max-width: 1650px) {
+        flex-wrap: wrap;
+    }
+
+    @media all and (max-width: 1440px) {
+        flex-wrap: nowrap;
+    }
+
+    @media all and (max-width: 1150px) {
+        flex-wrap: wrap;
+    }
+
+    @media all and (max-width: 768px) {
+        flex-wrap: nowrap;
+    }
+
+    @media all and (max-width: 510px) {
+        flex-wrap: wrap;
+    }
+}
+
+.ringProgress {
+    @media all and (max-width: 1650px) {
+        margin: 0 auto;
+    }
+}
+
+.details {
+
+}

@@ -1,0 +1,56 @@
+.mantine-Avatar-root[data-within-group] {
+  border: 1px solid var(--mantine-color-gray-7);
+}
+
+.mantine-Menu-item[data-hovered] {
+  background-color: var(--mantine-color-dark-8);
+}
+
+.mantine-RichTextEditor-root, .mantine-RichTextEditor-toolbar {
+  border: none;
+}
+
+.mantine-RichTextEditor-content {
+  border-radius: 0 0 7px 7px;
+}
+
+.mantine-Tabs-list::before {
+  border-color: transparent !important;
+}
+
+.mantine-Paper-root {
+  background-color: light-dark(var(--mantine-color-white), #151419);
+  border: light-dark(1px solid var(--mantine-color-gray-2), 1px solid #1D1D1D);
+}
+
+.mantine-Modal-content {
+  padding: 0 !important;
+  background-color: var(--mantine-color-dark-8) !important;
+}
+
+.mantine-Pagination-control[data-active] {
+  border: 1px solid var(--mantine-color-primary);
+  background: var(--mantine-color-indigo-1);
+  color: #1D1D1D;
+}
+
+.mantine-Modal-header {
+  background-color: var(--mantine-color-dark-7);
+  padding: 1rem 1.4rem;
+}
+
+.mantine-InputWrapper-label {
+  margin-bottom: 0.2rem;
+}
+
+.mantine-PasswordInput-input {
+  background-color: light-dark(var(--mantine-color-white), #0F0E12);
+
+  &:not(:hover) {
+    border-color: transparent;
+  }
+}
+
+body {
+  background-color: var(--mantine-color-dark-8);
+}
