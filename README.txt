@@ -1,1 +1,0 @@
-Setup guide: https://www.buzz.dev/knowledgebase/articles/product-setup-guide-ember
